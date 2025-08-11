@@ -1,0 +1,186 @@
+{
+  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "off",
+  "chat.commandCenter.enabled": false,
+
+  // ----------------- Editor Settings -----------------
+  "editor.codeLens": false,
+  "editor.colorDecorators": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block",
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.guides.bracketPairs": "active", //*
+  "editor.guides.indentation": false, //*
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.hover.enabled": true, //*
+  "editor.letterSpacing": 0.5, //*
+  "editor.lightbulb.enabled": "off",
+  "editor.lineHeight": 2.8,
+  "editor.lineNumbers": "off",
+  "editor.linkedEditing": true,
+  "editor.links": true,
+  "editor.matchBrackets": "never",
+  "editor.minimap.autohide": "mouseover",
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 30,
+  "editor.minimap.scale": 2,
+  "editor.minimap.renderCharacters": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.occurrencesHighlight": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.parameterHints.enabled": true, //Can be done by keyboard shortcut
+  "editor.quickSuggestions": {
+    "other": "on"
+  }, //*
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.selectionHighlight": false, //*
+  "editor.showFoldingControls": "mouseover", //Can be done by keyboard shortcut
+  "editor.snippetSuggestions": "top", //*
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+  "editor.wordWrap": "on",
+
+  //  ----------------- Explorer Settings -----------------
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": true, //*
+
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay", //*
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.decorations.enabled": true, //*
+  "scm.diffDecorations": "all", //*
+
+  //  ----------------- Window Settings -----------------
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "auto",
+  "window.density.editorTabHeight": "compact",
+  "window.menuBarVisibility": "compact",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1.5, //*
+
+  // ----------------- Workbench Settings -----------------
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorCustomizations": {
+    "editorCursor.background": "#000000",
+
+    // Error and Warning Colors
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+
+    "[Aura Dracula Spirit (Soft)]": {
+      "editorSuggestWidget.selectedBackground": "#3A334B",
+      "sideBar.background": "#191521"
+    }
+  },
+  "workbench.colorTheme": "Dark Magic Tokyo",
+  "workbench.editor.editorActionsLocation": "hidden", //*
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreview": false, //*
+  "workbench.editor.showTabs": "none", //*
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": false, //*
+  "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "none",
+
+  // ----------------- Custom UI Style -----------------
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 20,
+      "y": 16
+    }
+  },
+  "custom-ui-style.stylesheet": {
+    ".notification-toast": "box-shadow: none !important",
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    ".quick-input-widget": "top: 30vh !important",
+    ".quick-input-list .scrollbar": "display: none",
+    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    ".quick-input-titlebar": "background: #100B15 !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+    ".monaco-scrollable-element > .shadow.top": "display: none",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".monaco-list-row.focused": "outline: none !important",
+    ".monaco-editor .scroll-decoration": "display: none",
+    ".title-actions": "display: none !important",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    ".title .monaco-icon-label:after": "margin-right: 0",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+    ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+  },
+  "custom-ui-style.font.sansSerif": "Geist Mono",
+
+  // Auto Rename and Close Tag
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "auto-close-tag.enableAutoCloseTag": true,
+
+  // Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+
+  // Material icon theme
+  "material-icon-theme.hidesExplorerArrows": true,
+
+  // Path intellisense
+  "path-intellisense.autoSlashAfterDirectory": true,
+
+  // Dart
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  }
+}
