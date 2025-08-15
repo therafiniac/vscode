@@ -10,6 +10,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "block",
   "editor.detectIndentation": true,
+  "editor.fastScrollSensitivity": 5,
   "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
@@ -17,7 +18,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": false,
   "editor.formatOnPaste": true,
-  "editor.guides.bracketPairs": "active", //*
+  // "editor.guides.bracketPairs": "active", //*
   "editor.guides.indentation": false, //*
   "editor.hideCursorInOverviewRuler": true,
   "editor.hover.enabled": true, //*
@@ -33,6 +34,7 @@
   "editor.minimap.maxColumn": 30,
   "editor.minimap.scale": 2,
   "editor.minimap.renderCharacters": false,
+  "editor.mouseWheelScrollSensitivity": 2,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.occurrencesHighlight": "off",
   "editor.overviewRulerBorder": false,
@@ -70,14 +72,14 @@
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "explorer.decorations.badges": true, //*
+  "explorer.decorations.badges": false, //*
 
   "extensions.ignoreRecommendations": true,
   "files.autoSave": "afterDelay", //*
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "git.decorations.enabled": true, //*
-  "scm.diffDecorations": "all", //*
+  "scm.diffDecorations": "gutter", //*
 
   //  ----------------- Window Settings -----------------
   "window.commandCenter": false,
@@ -85,7 +87,7 @@
   "window.density.editorTabHeight": "compact",
   "window.menuBarVisibility": "compact",
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 1.5, //*
+  "window.zoomLevel": 1.8, //*
 
   // ----------------- Workbench Settings -----------------
   "workbench.activityBar.location": "hidden",
@@ -173,6 +175,17 @@
 
   // Path intellisense
   "path-intellisense.autoSlashAfterDirectory": true,
+
+  // Blockman
+  "blockman.n04ColorComboPreset": "Classic Dark 2 (Gradients)",
+  "blockman.n34A01BorderThicknessOfNonFocusedBlock": 0,
+  "blockman.n34A02BorderThicknessOfFocusedBlock": 1,
+
+  // Github Copilot
+  "github.copilot.enable": {
+    "*": false
+  },
+  // "github.copilot.inlineSuggest.enable": false
 
   // Dart
   "[dart]": {
